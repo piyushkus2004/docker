@@ -4,6 +4,6 @@
 
 **update packages**
 ```
-sudo apt update
+sudo apt update 
 ```
-
+## install the necessary packages to enable apt to use packages over HTTPS ##
