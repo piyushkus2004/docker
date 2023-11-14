@@ -23,3 +23,15 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] 
 sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io
 ```
+## Add Your User to the docker
+```
+sudo usermod -aG docker $USER
+```
+## Verify Docker Installation
+```
+docker --version
+```
+## Test Docker with a Hello World Container
+```
+docker run hello-world
+```
